@@ -2,11 +2,11 @@
   Reset
   ////////////// */
 
-/* *,
+ *,
 *::before,
 *::after {
   box-sizing: border-box;
-} */
+} 
 
 /* ///////////////
   General styling
@@ -74,10 +74,17 @@ body {
 }
 
 .plan {
-  width: 200px;
+  width: 16.5em;
   padding: 2em;
   border-radius: 1em;
   margin: 0 0.5em;
+}
+
+.plan--big {
+  width: 18em;
+  /*padding: 2em;*/
+  border-radius: 1em;
+  /*margin: 0 0.5em;*/
 }
 
 .plan--light {
@@ -100,8 +107,8 @@ body {
 }
 
 .plan--dark {
-  color: #fff
-  background: #4e4e4e
+  color: #fff;
+  background: #4e4e4e;
 }
 
 .plan--accent .button {
@@ -141,6 +148,10 @@ body {
   flex-wrap: wrap;
 }
 
+.team--light {
+  background: #fafafa;
+}
+
 .team-member {
   background: #abc;
   text-align: left;
@@ -150,6 +161,20 @@ body {
   border-radius: 0.5em;
   align-items: center;
   padding: 0.5em 2em 0.5em 0.5em;
+}
+
+.tm--light {
+  color: #4e4e4e;
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa)
+}
+
+.tm--dark {
+  color: #fff;
+  background: #4e4e4e;
+}
+
+.name--accent {
+  color: #00a1ab;
 }
 
 .team-member img {
