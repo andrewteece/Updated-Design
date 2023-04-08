@@ -58,7 +58,7 @@ section {
   --bg: var(--neutral-400);
   --fg: var(--neutral-100);
   --pop: var(--primary-400);
-  color: var(--primary-400);
+  /*color: var(--primary-400);*/
   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
 }
 
@@ -181,12 +181,39 @@ section {
   padding: 0.5em 2em 0.5em 0.5em;
 }
 
-.name--accent {
-  color: #00a1ab;
-  font-size: 1.5em;
-}
-
 .team-member img {
   width: 10rem;
   border-radius: 0.25em;
+  margin-right: 1em;
 }
+
+.team-member .name {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--pop);
+  margin: 0;
+}
+
+.team-member .position {
+  margin-top: 0;
+  font-weight: 700;
+  color: var(--neutral-400);
+  opacity: 0.8;
+}
+
+.team-member--mirrored {
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.team-member--mirrored img {
+  order: 2;
+  margin-left: 1em;
+}
+
+/*(.name--accent {
+  color: #00a1ab;
+  font-size: 1.5em;
+}*/
+
+
